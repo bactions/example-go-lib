@@ -1,6 +1,11 @@
 package examplegolib
 
+import "fmt"
+
 // DoSomething is just for example purpose.
 func DoSomething() {
-	// Actually doing nothing. Hue hue hue!!!
+	fmt.Println("Doing something")
+	fmt.Println("Still Doing something")
+	fmt.Println("... Doing something")
+	fmt.Println("... Doing something ...")
 }
